@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  webapplication1:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - CUSTOM=Docker Custom Value
+    ports:
+      - "8089:80"
